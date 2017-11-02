@@ -13,10 +13,6 @@ I am quite happy with the result cause changing the code really forces you to le
 
 I did it and, of course, lose all the code.
 
+##  hint 2: if you get an error complaining about the "import" command in your app.js
 
-
-```
-ERROR in ./app/main.js
-Module not found: Error: Can't resolve '../build/contracts/MetaCoin.json' in '/Users/tim/Documents/workspace/Consensys/test3/app'
- @ ./app/main.js 11:16-59
-```
+Quite probably you are not running index.html in the webserver but directly on the browser.
