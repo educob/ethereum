@@ -1,26 +1,19 @@
-# truffle-init-webpack
-Example webpack project with Truffle. Includes contracts, migrations, tests, user interface and webpack build pipeline.
+# My ethereum code
+As a way of learning I am adapting the code sample of the book "Building Blockchain Projects" to the truffle framework
 
-## Usage
+## About: "Building Blockchain Projects"
 
-To initialize a project with this example, run `truffle init webpack` inside an empty directory.
+I have read 5 books about ethereum-blockchain-decentralized applications and "Building Blockchain Projects" is without anydoubt the best book of them.
 
-## Building and the frontend
+But the truffle framework is not introduced until chapter 8, so in order to really learn the concepts of contract deployment and webserver manipulation of contracts I decided to recode the samples of chapeter 4 and 5 to run in truffle.
 
-1. First run `truffle compile`, then run `truffle migrate` to deploy the contracts onto your network of choice (default "development").
-1. Then run `npm run dev` to build the app and serve it on http://localhost:8080
+I am quite happy with the result cause changing the code really forces you to learn every little detail in there.
 
-## Possible upgrades
+##  hint: don't ever run "truffle init webpack" once your code is in place. 
 
-* Use the webpack hotloader to sense when contracts or javascript have been recompiled and rebuild the application. Contributions welcome!
+I did it and, of course, lose all the code.
 
-## Common Errors
 
-* **Error: Can't resolve '../build/contracts/MetaCoin.json'**
-
-This means you haven't compiled or migrated your contracts yet. Run `truffle compile` and `truffle migrate` first.
-
-Full error:
 
 ```
 ERROR in ./app/main.js
