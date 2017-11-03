@@ -62,4 +62,4 @@ contract Consumer {
 ```
 
 ## How to compile, deploy and run this piece of code so we learn something from it?
-
+No need to go to further aways: https://github.com/educob/ethereum/blob/master/compile%20deploy%20and%20run%20solidity%20code.md
