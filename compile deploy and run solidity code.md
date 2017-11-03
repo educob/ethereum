@@ -41,21 +41,22 @@ You will be asked for your testnet first ether account password.
 5) In terminal 2, in your folder, run one: "truffle migrate". This compiles and deployes your contracts.
 
 6) You need InfoFeed contract address. You have two ways to get it:
+
   a) Look at "truffle migrate" output and find it in line with: 
 
-        ```ruby
-        InfoFeed: 0x02df0aa034523a0f922876da3d2fe5acf9bb36d5
-        ```
+    ```ruby
+    InfoFeed: 0x02df0aa034523a0f922876da3d2fe5acf9bb36d5
+    ```
   
   b) Run in terminal 2: 
-  
-          ```ruby
-          InfoFeed.deployed().then(function(instance) {
-            return instance.getAddress.call();
-          }).then(function(obj) {
-            console.log("address: " +obj)
-          })
-          ```
+
+    ```ruby
+    InfoFeed.deployed().then(function(instance) {
+    return instance.getAddress.call();
+    }).then(function(obj) {
+    console.log("address: " +obj)
+    })
+```
    
    BUT you must paste the code as a single line. My trick is that I paste in chrome's address and then selected and copied again.
     
