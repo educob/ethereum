@@ -23,7 +23,7 @@ Only Consumer.sol code is shown and that's makes you think that InfoFeed, someho
 That's not the case. A second file InfoFeed.sol must be added with contract InfoFeed code in it.
 
 ## wrong #2
-Consumer.callFeed() doesn't return anything. So how are we going to see whether it return 42 or not?
+Consumer.callFeed() doesn't return anything. So how are we going to see whether it returns 42 or not?
 
 ## wrong #3.
 InfoFeed.finfo() return 42 when called directly from an InfoFeed instance BUT when called from Consumer.callFeed() it return 0.
