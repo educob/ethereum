@@ -1,4 +1,4 @@
-# What's wrong with:?
+# What's wrong with this code in the ethereum docu:?
 
 ```ruby
 pragma solidity ^0.4.0;
