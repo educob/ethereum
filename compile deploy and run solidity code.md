@@ -57,14 +57,14 @@ You will be asked for your testnet first ether account password.
     })
     ```
    
-   BUT you must paste the code as a single line. My trick is that I paste in chrome's address and then selected and copied again.
+    BUT you must paste the code as a single line. My trick is that I paste in chrome's address and then selected and copied again.
     
     You are running solidity contracts!!! Hooray!!!!
     
     Now you can run Consumer methods with this code:
    
-      ```ruby
-      Consumer.deployed().then(
+        ```ruby
+        Consumer.deployed().then(
         function(instance) {
           instance.setFeed('0x02df0aa034523a0f922876da3d2fe5acf9bb36d5');
           return instance;
@@ -75,6 +75,6 @@ You will be asked for your testnet first ether account password.
         }).catch(function(e){
           alert("Error:"+e);
         })
-    ```
+        ```
     
     ### Have fun!!
