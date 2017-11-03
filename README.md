@@ -35,3 +35,7 @@ contract Consumer {
 ```
 
 Everything!!!!!
+https://github.com/educob/ethereum/blob/master/what%20is%20wrong%20with%20this%20docu%20sample.md
+
+## How to run contracts?
+https://github.com/educob/ethereum/blob/master/compile%20deploy%20and%20run%20solidity%20code.md
