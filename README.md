@@ -1,5 +1,6 @@
 # My ethereum code
-As a way of learning I am adapting the code sample of the book "Building Blockchain Projects" to the truffle framework
+As a way of learning I am adapting the code sample of the book "Building Blockchain Projects" to the truffle framework.
+And more.
 
 ## About: "Building Blockchain Projects"
 
@@ -16,3 +17,21 @@ I did it and, of course, lose all the code.
 ##  hint 2: if you get an error complaining about the "import" command in your app.js
 
 Quite probably you are not running index.html in the webserver but directly on the browser.
+
+## What's wrong with this piece of code in the docu:?
+
+```ruby
+pragma solidity ^0.4.0;
+
+contract InfoFeed {
+    function info() payable returns (uint ret) { return 42; }
+}
+
+contract Consumer {
+    InfoFeed feed;
+    function setFeed(address addr) { feed = InfoFeed(addr); }
+    function callFeed() { feed.info.value(10).gas(800)(); }
+}
+```
+
+Everything!!!!!
