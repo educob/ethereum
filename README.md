@@ -42,4 +42,4 @@ With web3:
 https://github.com/educob/ethereum/blob/master/web3:%20compile%2C%20deploy%20and%20run%20smart%20contracts.md
 
 With truffle:
-https://github.com/educob/ethereum/blob/master/compile%20deploy%20and%20run%20solidity%20code.md
+https://github.com/educob/ethereum/blob/master/truffle:%20compile%20deploy%20and%20run%20solidity%20code.md
