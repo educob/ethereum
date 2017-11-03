@@ -1,3 +1,4 @@
+(warning: several formatting errors that I cannot seem to solve :)
 # How to easily compile, deploy and run contracts so we learn something from the samples?
 
 I assume truffle has been installed.
