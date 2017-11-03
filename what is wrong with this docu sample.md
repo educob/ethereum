@@ -26,7 +26,7 @@ That's not the case. A second file InfoFeed.sol must be added with contract Info
 Consumer.callFeed() doesn't return anything. So how are we going to see whether it returns 42 or not?
 
 ## wrong #3.
-InfoFeed.finfo() return 42 when called directly from an InfoFeed instance BUT when called from Consumer.callFeed() it return 0.
+InfoFeed.finfo() return 42 when called directly from an InfoFeed instance BUT when called from Consumer.callFeed() it returns 0.
 How to solve it? Remove the "ret" from "function info() payable returns (uint ret) { return 42; }".
 I cannot explain this behavior but after many failed attempts it only worked when I remove "ret".
 
