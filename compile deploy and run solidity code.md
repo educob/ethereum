@@ -6,6 +6,7 @@ Open a terminal, let's call it terminal 2, and run: truffle init
 1) In folder: "contracts" remove: ConverLib.sol & MetaCoin.sol (or study and play with them). Then insert your contract/s file/s.
 2) Let's say you have inserted InfoFeed.sol & Consumer.sol (see:  https://github.com/educob/ethereum/blob/master/what%20is%20wrong%20with%20this%20docu%20sample.md)
     Go to "migrations" folder and replace the content of "2_deploy_contracts.js" with:
+    
     ```ruby
     var Consumer = artifacts.require("./Consumer.sol");
     var InfoFeed = artifacts.require("./InfoFeed.sol");
