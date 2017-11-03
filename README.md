@@ -12,7 +12,7 @@ I am quite happy with the result cause changing the code really forces you to le
 
 ##  hint: don't ever run "truffle init webpack" once your code is in place. 
 
-I did it and, of course, lose all the code.
+I did it and, of course, I lost all the code.
 
 ##  hint 2: if you get an error complaining about the "import" command in your app.js
 
