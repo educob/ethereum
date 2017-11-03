@@ -49,14 +49,12 @@ pragma solidity ^0.4.0;
 
 contract InfoFeed {
     function info() payable returns (uint) { return 42; }
-    function getAddress() payable returns (address) { return this; }
 }
 
 contract Consumer {
     InfoFeed feed;
     function setFeed(address addr) { feed = InfoFeed(addr); }
     function callFeed() returns (uint) { return feed.info(); }
-    function getInfoAddress() returns (address) { return feed.getAddress(); }
 }
 
 ```
